@@ -149,7 +149,7 @@
     color: black;
     align-self: baseline;
     text-align: center;
-    background-color: rgb(220, 220, 220, .7);
+    background-color: rgb(180, 180, 180);
     position: absolute;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -193,6 +193,7 @@ a{
 
 button:hover{
     background-color: rgb(98, 161, 202);
+    transform: rotate3d(0, 1, 0, 180deg);
 }
 
 ::-webkit-scrollbar{
