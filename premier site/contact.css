@@ -1,0 +1,21 @@
+.flexcontainer{
+    background-color: rgb(233, 231, 231);
+    border: 1px;
+    border-style: solid;
+    align-items: center;
+    padding: 1%;
+}
+
+.bolderText{
+    font-weight: bold;
+}
+
+.textBox{
+    width: 100%;
+}
+
+button{
+    background-color: lightgreen;
+    border-color: lightgrey;
+    padding: 0.5%;
+}

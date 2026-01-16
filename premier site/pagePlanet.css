@@ -1,0 +1,12 @@
+.tableMath{
+    background-color: black;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+.firstLine{
+    background-color: lightgoldenrodyellow;
+}
+.restLine{
+    background-color: lightgray;
+}

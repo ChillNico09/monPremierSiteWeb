@@ -1,0 +1,140 @@
+.numberParagraphe{
+    font-weight: bold;
+}
+
+.PlanetePNG{
+    width: 100px;
+}
+
+.flexContainerHeader{
+    width: 100%;
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    padding: 20px;
+}
+
+.flexContainerTitleOne{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    place-content: center;
+    background-image: url("starsPhoto.jpg");
+}
+
+.flexContainerTitleTwo{
+    width: 100%;
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.flexContainerTitleTwoSquared{
+    color: white;
+    width: 75%;
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.flexContainerTitleTwoSquaredSquared{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 25%;
+    justify-content: center;
+    align-items: center;
+}
+
+.fcttssText{
+    padding: 10px;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.subtitleTitleOne{
+    color: white;
+}
+
+.flexContainerTitleThree{
+    width: 100%;
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.flexContainerTitleThreeSquared{
+    color: white;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    border-width: 5px;
+    border-color: rgb(51, 51, 51);
+    border-style: solid;
+    border-radius: 15px;
+}
+
+
+.containerEarth{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    background-image: url(earth.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.containerEarthTitle{
+    background-color: aqua;
+}
+h1{
+    margin: 0;
+    color: white;
+}
+
+button{
+    background-color: gray;
+    color: lightgrey;
+    font-family: monospace;
+}
+
+body{
+    margin: 0;
+    font-family: monospace;
+}
+
+footer{
+    width: 100%;
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+a{
+    color: white;
+}

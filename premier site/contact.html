@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Contactez Nous</h1>
+    <p>
+        Utiliser ce formulaire si vous voulez commander un Puzzle.
+    </p>
+    <div class="flexcontainer">
+        <div>
+            <label for="familyName" class="bolderText">Nom*</label>
+            <br>
+            <input type="text" id="familyName" name="familyName" class="textBox">
+        </div>
+
+        <div>
+            <label for="name" class="bolderText">Prénom*</label>
+            <br>
+            <input type="text" id="name" name="name" class="textBox">
+        </div>
+
+        <div>
+            <label for="adresse" class="bolderText">Adresse*</label>
+            <br>
+            <input type="text" id="adresse" name="adresse" class="textBox">
+        </div>
+
+        <div>
+            <label for="lieu" class="bolderText">Lieu*</label>
+            <br>
+            <input type="text" id="lieu" name="lieu" class="textBox">
+        </div>
+
+        <div>
+            <label for="npa" class="bolderText">NPA*</label>
+            <br>
+            <input type="text" id="npa" name="npa" class="textBox">
+        </div>
+        <fieldset>
+            <legend>
+                Votre commande
+            </legend>
+            <div>
+                <p>
+                    Puzzle désiré
+                </p>
+                <label for="terre" class="bolderText">Terre</label>
+                <input type="checkbox" id="terre" name="terre">
+
+                <label for="venus" class="bolderText">Venus</label>
+                <input type="checkbox" id="venus" name="venus">
+
+                <label for="mars" class="bolderText">Mars</label>
+                <input type="checkbox" id="mars" name="mars">
+
+                <br>
+
+                <label for="quantity" class="bolderText">Quantité*</label>
+                <select name="quantity" id="quantity">
+                    <option value="placeHolder">---Choisissez---</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+
+                <fieldset>
+                    <legend>
+                        Mode de paiement
+                    </legend>
+                    
+                    <label for="buyOpt1" class="bolderText">Payement à la livraison</label>
+                    <input type="radio" id="buyOpt1" name="buyOpt1">
+
+                    <label for="buyOpt2" class="bolderText">Carte bancaire</label>
+                    <input type="radio" id="buyOpt2" name="buyOpt2">
+
+                    <label for="buyOpt3" class="bolderText">PayPal</label>
+                    <input type="radio" id="buyOpt3" name="buyOpt3">
+                </fieldset>
+            </div>
+        </fieldset>
+            <p>
+                Message
+            </p>
+            <textarea name="messageArea" id="messageArea"></textarea>
+            <br>
+                
+            <input type="checkbox" id="acceptCondition" name="acceptCondition">
+            <label for="acceptCondition" class="bolderText">J'accepte les conditions générales*</label>
+            <br>
+
+            <button>
+                Envoyer
+            </button>
+    </div>
+    <a href="page-entrer.html">Retour</a>
+</body>
+</html>

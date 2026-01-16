@@ -1,0 +1,36 @@
+    body{
+        font-family:Helvetica;
+    }
+
+    h1{
+        color: red;
+    }
+
+    a{
+        background-color: green;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        border-color: black;
+        border-width: 3px;
+        border-style: solid;
+    }
+
+    .flex-container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .charlie{
+
+        border-color: blueviolet;
+        border-width: 3px;
+        border-style: ridge;
+        text-align: center;
+        width: 25%;
+    }
+
+    .kirk{
+        border-color: blueviolet;
+        border-width: 3px;
+        border-style: ridge;
+    }
