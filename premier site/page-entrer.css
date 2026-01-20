@@ -77,14 +77,29 @@
     color: white;
     width: 75%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding: 60px;
     border-width: 5px;
     border-color: rgb(51, 51, 51);
     border-style: solid;
     border-radius: 15px;
+    padding-bottom: 60px;
+}
+
+.titleFCTTS{
+    margin: 50px;
+    font-size: 20px;
+    color: black;
+}
+
+.flexContainerTitleThreeSquaredSquared{
+    color: white;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -103,6 +118,11 @@
     align-items: center;
 }
 
+.containerEarth:hover{
+    animation-name: wiggling;
+    animation-duration: 0.5s;
+}
+
 .containerMars{
     position: relative;
     width: 200px;
@@ -118,6 +138,11 @@
     align-items: center;
 }
 
+.containerMars:hover{
+    animation-name: wiggling;
+    animation-duration: 0.5s;
+}
+
 .containerVenus{
     position: relative;
     width: 200px;
@@ -131,6 +156,11 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+}
+
+.containerVenus:hover{
+    animation-name: wiggling;
+    animation-duration: 0.5s;
 }
 
 .containerPlanetTitle{
@@ -198,4 +228,15 @@ button:hover{
 
 ::-webkit-scrollbar{
     display: none;
+}
+
+@keyframes wiggling {
+  12.5% {transform: rotate(3deg);}
+  25% {transform: rotate(-3deg);}
+  37.5% {transform: rotate(3deg);}
+  50% {transform: rotate(-3deg);}
+  62.5% {transform: rotate(3deg);}
+  75% {transform: rotate(-3deg);}
+  87.5% {transform: rotate(3deg);}
+  100% {transform: rotate(0deg);}
 }
