@@ -21,7 +21,7 @@
     flex-direction: column;
     align-items: center;
     place-content: center;
-    background-image: url("starsPhoto.jpg");
+    background-image: url(starsPhoto.jpg);
 }
 
 .flexContainerTitleTwo{
@@ -95,7 +95,7 @@
 
 .flexContainerTitleThreeSquaredSquared{
     color: white;
-    width: 75%;
+    width: 90%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -116,6 +116,9 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    border: 6px rgb(7, 163, 190);
+    border-style: solid;
+    border-radius: 6px;
 }
 
 .containerEarth:hover{
@@ -136,6 +139,9 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    border: 6px rgb(206, 101, 15);
+    border-style: solid;
+    border-radius: 6px;
 }
 
 .containerMars:hover{
@@ -156,6 +162,9 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    border: 6px rgb(201, 198, 15);
+    border-style: solid;
+    border-radius: 6px;
 }
 
 .containerVenus:hover{
